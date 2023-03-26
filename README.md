@@ -9,3 +9,8 @@ The *knapsack problem* is well known NP-complete problem and maybe the best solu
 The solution is to create a table of size (NumberOfTopics + 1) x (TimeWeHave + 1).
 The table will contain the maximum number of questions we can answer correctly if we have j hours left and we have studied i topics.
 Total number of learned question will be equal to the value in the bottom right corner of the table.
+
+## Implementation:
+This problem is solved by static method `Solve` in static class `StudyPlanner` in file [StudyPlanner.cs](ProgrammerExam/StudyPlanner.cs).
+Method takes two arguments, an array of Topic structs and positive integer that stands for the time we have to study until the exam, and
+returns StudyPlan struct with optimal plan for the study session that maximizes number of learned questions.
