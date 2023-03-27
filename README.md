@@ -1,4 +1,5 @@
 # ProgrammerExam
+This repository is public since 27.3.2023
 ## The problem:
 A programmer has an upcoming exam and only has N hours left to prepare. The textbook has M topics, each of which requires a certain amount of hours Ti for studying, and has a certain number of questions Ki that could potentially appear on the exam. Unfortunately, N hours is not enough time to completely study all the topics, but the exam task will have L questions, chosen randomly from all the questions in the textbook with an equal probability. What is the best way to use limited time to maximize the chances of getting the best possible grade?
 
